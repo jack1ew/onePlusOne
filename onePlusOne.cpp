@@ -1,11 +1,8 @@
 // Jackie Wang
 // One plus one cod that is supposed to be impelemented on fpga
-int main() {
+#include "onePlusOne.h"
+int onePlusOne() {
   int i = 0;
-  while(true) {
-    i = 1 + 1;
-    std::cout << i << endl;
-  }
-
-  return 0;
+  i = 1 + 1;
+  return i;
 }
